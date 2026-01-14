@@ -12,7 +12,7 @@ export const createBooking = async ({ eventId, slug, email }: { eventId: string;
 
         return { success: true };
     } catch (e) {
-        console.error('create booking failed', e);
+        console.error('create booking faileed', e);
         return { success: false };
     }
 }
